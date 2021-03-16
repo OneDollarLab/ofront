@@ -5,17 +5,15 @@ require(`dotenv`).config({
 const shouldAnalyseBundle = process.env.ANALYSE_BUNDLE
 
 module.exports = {
-  site: {
-      siteMetadata: {
-      siteTitleAlt: `Ofrontdev - O site do desenvolvedor front-end moderno`,
-      siteDescription: `O site do desenvolvedor front-end moderno`,
-      siteTitle: `Ofrontdev`,
-      siteHeadline: `Ofrontdev - O site do desenvolvedor front-end moderno`,
-      siteUrl: `https://ofront.gatsbyjs.io`,
-      siteLanguage: `pt-br`,
-      siteImage: `/banner.jpg`,
-      author: `@enrsaid`,
-    }
+  siteMetadata: {
+    siteTitleAlt: `Ofrontdev - O site do desenvolvedor front-end moderno`,
+    siteDescription: `O site do desenvolvedor front-end moderno`,
+    siteTitle: `Ofrontdev`,
+    siteHeadline: `Ofrontdev - O site do desenvolvedor front-end moderno`,
+    siteUrl: `https://ofront.gatsbyjs.io`,
+    siteLanguage: `pt-br`,
+    siteImage: `/banner.jpg`,
+    author: `@enrsaid`
   },
   plugins: [
     {
