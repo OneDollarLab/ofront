@@ -10,7 +10,7 @@ module.exports = {
     siteDescription: `O site do desenvolvedor front-end moderno`,
     siteTitle: `Ofrontdev`,
     siteHeadline: `Ofrontdev - O site do desenvolvedor front-end moderno`,
-    siteUrl: `ofront.gatsbyjs.io`,
+    siteUrl: `https://ofront.gatsbyjs.io`,
     siteLanguage: `pt-br`,
     siteImage: `/banner.jpg`,
     author: `@enrsaid`,
