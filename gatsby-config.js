@@ -1,19 +1,19 @@
 require(`dotenv`).config({
   path: `.env`,
-})
+});
 
-const shouldAnalyseBundle = process.env.ANALYSE_BUNDLE
+const shouldAnalyseBundle = process.env.ANALYSE_BUNDLE;
 
 module.exports = {
   siteMetadata: {
-    siteTitleAlt: `Ofrontdev - O site do desenvolvedor front-end moderno`,
+    siteTitleAlt: `Ofront.dev - O site do desenvolvedor front-end moderno`,
     siteDescription: `O site do desenvolvedor front-end moderno`,
-    siteTitle: `Ofrontdev`,
-    siteHeadline: `Ofrontdev - O site do desenvolvedor front-end moderno`,
+    siteTitle: `Ofront.dev`,
+    siteHeadline: `Ofront.dev - O site do desenvolvedor front-end moderno`,
     siteUrl: `https://ofront.gatsbyjs.io`,
     siteLanguage: `pt-br`,
     siteImage: `/banner.jpg`,
-    author: `@enrsaid`
+    author: `@enrsaid`,
   },
   plugins: [
     {
@@ -34,7 +34,7 @@ module.exports = {
           {
             name: `Twitter`,
             url: `https://twitter.com/enrsaid`,
-          }
+          },
         ],
       },
     },
@@ -48,9 +48,9 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Ofrontdev - O site do desenvolvedor front-end moderno`,
-        short_name: `Ofrontdev`,
-        description: `O site do desenvolvedor front-end modernog`,
+        name: `Ofront.dev - O site do desenvolvedor front-end moderno`,
+        short_name: `Ofront.dev`,
+        description: `O site do desenvolvedor front-end moderno`,
         start_url: `/`,
         background_color: `#fff`,
         theme_color: `#6B46C1`,
@@ -81,4 +81,4 @@ module.exports = {
       },
     },
   ].filter(Boolean),
-}
+};
